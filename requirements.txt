@@ -1,12 +1,11 @@
-crewai>=0.70.0
-crewai-tools>=0.20.0
-groq>=0.10.0
-playwright>=1.45.0
-python-telegram-bot>=21.0
+# Core - leave open for any compatible version
+fastapi
+uvicorn
+python-telegram-bot
 pydantic>=2.0.0
-python-dotenv>=1.0.0
-httpx>=0.27.0
-apscheduler>=3.10.0
-beautifulsoup4>=4.12.0
-fastapi>=0.100.0
-uvicorn>=0.25.0
+python-dotenv
+httpx
+beautifulsoup4
+playwright
+apscheduler
+groq
