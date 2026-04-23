@@ -1,9 +1,11 @@
 # AI Job Finder
 
-A smart, multi-source job search assistant with Telegram integration built with Python, FastAPI, and AI.
+A smart, multi-source job search assistant with Telegram integration built with Python, FastAPI, CrewAI, and HuggingFace.
 
 ![Python](https://img.shields.io/badge/python-3.12-blue)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.115-green)
+![CrewAI](https://img.shields.io/badge/CrewAI-0.70+-purple)
+![HuggingFace](https://img.shields.io/badge/HuggingFace-DeepSeek-orange)
 ![Telegram](https://img.shields.io/badge/Telegram-Bot-Blue)
 ![License](https://img.shields.io/badge/license-MIT-yellow)
 
@@ -40,8 +42,9 @@ python developer fresher India
 | Component | Technology |
 |-----------|------------|
 | Backend | FastAPI + Python |
-| AI | HuggingFace (DeepSeek-R1) / Groq |
-| Scraping | Playwright + httpx |
+| AI Framework | CrewAI (Multi-agent system) |
+| AI Models | HuggingFace (DeepSeek-R1) / Groq (LLaMA) |
+| Scraping | Playwright + httpx + BeautifulSoup |
 | Bot | python-telegram-bot |
 | Database | JSON file storage |
 
